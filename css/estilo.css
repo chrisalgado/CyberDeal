@@ -108,4 +108,35 @@ margin: auto;
 
 /*Estilos Acerca de*/
 
+.info .contenedor{
+    background: rgba(0,0,0,0.2);
+    
+}
+
+.info img{
+    width: 200px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    display: block;
+    margin: auto;
+}
+
+.info article{
+    background: rgba(0,0,0,0.5);
+    margin: 5px 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.info h2{
+    text-align: center;
+    color: silver;
+}
+
+.info p{
+    text-align: center;
+    color: white;
+}
+
+
 
