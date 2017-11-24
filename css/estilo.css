@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
+@import url(tarjetas.css); 
+	
 *{margin: 0;
 font-family: 'Nunito', sans-serif;
 }
