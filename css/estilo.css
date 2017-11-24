@@ -83,7 +83,7 @@ margin: auto;
 	margin-top: -60px;
 	position: relative;
 	z-index: -1000;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .banner__img{
@@ -97,12 +97,12 @@ margin: auto;
 	top: 50%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
-	width: 98%;
+	width: 97%;
 	color: #000;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
 	background: rgba(0, 0, 0, 0.6);
 	color: white;
-	padding: 8px 5px;
+	padding: 8px 2px;
 }
 
