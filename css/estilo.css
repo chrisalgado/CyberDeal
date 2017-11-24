@@ -84,7 +84,7 @@ margin: auto;
 	margin-top: -60px;
 	position: relative;
 	z-index: -1000;
-	margin-bottom: 5px;
+	margin-bottom: -5px;
 }
 
 .banner__img{
