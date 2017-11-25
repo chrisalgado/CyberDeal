@@ -1,5 +1,3 @@
-@import ('scroll.js');
-
 var icono = document.getElementById("btnMenu");
 var menu = document.getElementById("navegacion");
 
