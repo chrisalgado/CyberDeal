@@ -106,14 +106,13 @@ font-family: 'Nunito', sans-serif;
 
 .banner .contenedor{
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
 	width: 100%;
 	color: #000;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0,0,0,0.8);
 	color: white;
 	padding: 8px 5px;
 }
@@ -224,8 +223,8 @@ font-family: 'Nunito', sans-serif;
 		width: auto;
 	}
 	
-	.contenedor{
-		padding: 0px 10px;
+	.banner .contenedor{
+		padding: 0px 0px;
 		background: none;
 	}
 	
@@ -237,10 +236,11 @@ font-family: 'Nunito', sans-serif;
 		display:none;
 	}
 	
-	.banner__titulo{
-		font-family: 60px;	
+	.banner .contenedor .banner__titulo{
+		font-family: 100px;	
 	}
     
+	
     /*Acerca de (compu)*/
     .info .contenedor{
         background: rgba(0,0,0,0.2);
