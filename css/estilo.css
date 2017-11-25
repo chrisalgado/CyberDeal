@@ -15,6 +15,11 @@
 
 .header{
     height: 60px;
+	position: fixed;
+	display: block;
+	top:0.1px;
+	width: 100%;
+	z-index: 1000;
 }
 
 .header .contenedor{
@@ -59,7 +64,7 @@
 
 .nav{
     position: absolute;
-    top: 52px;
+    top: 51px;
     left: -100%;
     width: 100%;
 	transition: all 0.4s;
@@ -93,7 +98,7 @@
 
 
 .banner{
-	margin-top: -50px;
+	margin-top: 50px;
 	position: relative;
 	z-index: -1000;
 }
@@ -105,14 +110,13 @@
 
 .banner .contenedor{
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
 	width: 100%;
 	color: #000;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0,0,0,0.8);
 	color: white;
 	padding: 8px 5px;
 }
@@ -127,6 +131,7 @@
     background: rgba(0,0,0,0.2);
     width: 100%;
     height: auto;
+	padding: 20px;
     
 }
 
@@ -136,6 +141,7 @@
     padding: 5px 5px;
     display: block;
     margin: auto;
+	overflow: hidden;
 }
 
 .info article{
@@ -143,6 +149,7 @@
     margin: 5px 5px;
     border-radius: 5px;
     padding: 5px 5px;
+	overflow: hidden;
 }
 
 .info h2{
@@ -220,8 +227,9 @@
 		width: auto;
 	}
 	
-	.contenedor{
-	padding: 0px 10px;
+	.banner .contenedor{
+		padding: 0px 0px;
+		background: none;
 	}
 	
 	.menu{
@@ -232,10 +240,11 @@
 		display:none;
 	}
 	
-	.banner__titulo{
-		font-family: 60px;	
+	.banner .contenedor .banner__titulo{
+		font-family: 100px;	
 	}
     
+	
     /*Acerca de (compu)*/
     .info .contenedor{
         background: rgba(0,0,0,0.2);
@@ -251,9 +260,15 @@
         width: 45%;
         
     }
+	
+	.articulo{ 
+		padding: 20px;
+		margin: 25px 0px;
+	}
     
     .info .contenedor_acerca{
         width: 45%;
+		padding:10px; 
     }
 
     .info img{
@@ -266,9 +281,9 @@
 
     .info article{
         background: rgba(0,0,0,0.5);
-        margin: 5px 5px;
+        margin: 5px 10px;
         border-radius: 5px;
-        padding: 5px 5px;
+        padding: 5px 15px;
     }
 
     .info h2{
