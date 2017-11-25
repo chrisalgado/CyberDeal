@@ -20,7 +20,7 @@ font-family: 'Nunito', sans-serif;
 }
 
 .contenedor{
-	padding: 0px 30px;
+	padding: 0px 10px;
 }
 
 .icon-menu{
@@ -30,11 +30,16 @@ font-family: 'Nunito', sans-serif;
     font-size: 30px;
     background: rgba(18,67,85,0.8);
     color:#fff;
+	align-content: center;
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
     margin-left: auto;
     cursor: pointer;
+}
+
+.Logo{
+	font-family: 15px;
 }
 
 .logo{
@@ -149,7 +154,7 @@ font-family: 'Nunito', sans-serif;
 
 @media (min-width:480px){
 	.logo{
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.banner__titulo{
 		font-size: 30px;
@@ -182,6 +187,10 @@ font-family: 'Nunito', sans-serif;
 		position: static;
 		width: auto;
 	}
+	
+	.contenedor{
+	padding: 0px 10px;
+}
 	
 	.menu{
 		display: flex;
