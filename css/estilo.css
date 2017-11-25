@@ -168,6 +168,8 @@ font-family: 'Nunito', sans-serif;
 	}
 }
 
+
+
 /*responsive tablet*/
 
 @media(min-width: 768px) {
@@ -180,6 +182,8 @@ font-family: 'Nunito', sans-serif;
 		font-family: 50px;	
 	}
 }
+
+
 
 /*responsive compu*/
 
@@ -204,4 +208,50 @@ font-family: 'Nunito', sans-serif;
 	.banner__titulo{
 		font-family: 60px;	
 	}
+    
+    /*Acerca de (compu)*/
+    .info .contenedor{
+        background: rgba(0,0,0,0.2);
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    .info .contenedor_imagen{
+        width: 45%;
+        
+    }
+    
+    .info .contenedor_acerca{
+        width: 45%;
+    }
+
+    .info img{
+        width: 200px;
+        margin: 5px 5px;
+        padding: 5px 5px;
+        display: block;
+        margin: auto;
+    }
+
+    .info article{
+        background: rgba(0,0,0,0.5);
+        margin: 5px 5px;
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+
+    .info h2{
+        text-align: center;
+        color: silver;
+    }
+
+    .info p{
+        text-align: center;
+        color: white;
+    }
+    
 }
