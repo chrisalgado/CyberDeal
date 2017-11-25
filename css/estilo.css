@@ -200,6 +200,14 @@
 		font-size: 18px;
 		margin: 7px 0;
 	}
+    
+    .redes ul li a{
+        display: none;
+    }
+    
+    .redes ul li .icon-facebook{display: none;}
+    .redes ul li .icon-instagram{display: none;}
+    .redes ul li .icon-google-plus{display: none;}
 }
 
 
@@ -215,6 +223,13 @@
 		display: inline-block;
 		font-family: 50px;	
 	}
+    
+    .redes ul li a{
+        display: none;
+    }
+    .redes ul li .icon-facebook{display: none;}
+    .redes ul li .icon-instagram{display: none;}
+    .redes ul li .icon-google-plus{display: none;}
 }
 
 
@@ -244,7 +259,7 @@
 		font-family: 100px;	
 	}
     
-	
+    
     /*Acerca de (compu)*/
     .info .contenedor{
         background: rgba(0,0,0,0.2);
