@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url(tarjetas.css); 
+@import url(fonts.css);
 	
 *{
-margin: 0;
-font-family: 'Nunito', sans-serif;
- box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*Estilos del header*/
@@ -275,6 +279,39 @@ font-family: 'Nunito', sans-serif;
     .info p{
         text-align: center;
         color: white;
+    }
+    
+    /*Barra lateral redes sociales*/
+    
+    .redes{
+        position: fixed;
+        left: 0;
+        top: 200px;
+        z-index: 1000;
+    }
+    
+    .redes ul{
+        list-style: none;
+    }
+    
+    .redes ul li a{
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    
+    .redes ul li .icon-facebook{background: #3b5998;}
+    .redes ul li .icon-instagram{background: #9A12B3;}
+    .redes ul li .icon-google-plus{background: #d95232;}
+    
+    .redes ul li a:hover {
+        padding: 10px 30px;
+        background: #000;
     }
     
 }
