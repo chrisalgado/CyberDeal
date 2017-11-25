@@ -45,6 +45,9 @@ figure{
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(600px) rotateY(0deg);
+	
+	align-content: center;
+	align-items: center;
 }
 
 figure .frontal,
@@ -75,5 +78,8 @@ figure .trasera{
 }
 
 figure .trasera hr{
-    margin: 0px 20px;
+    margin: 2px 20px;
+	
+	align-content: center;
+	align-items: center;
 }
