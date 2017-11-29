@@ -255,9 +255,10 @@
 		display:none;
 	}
 	
-	.banner .contenedor .banner__titulo{
-		font-family: 100px;	
-	}
+    
+    .banner__titulo{
+        font-family: 100px;
+    }
     
     
     /*Acerca de (compu)*/
